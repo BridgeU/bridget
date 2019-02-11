@@ -4,6 +4,8 @@
   "description": "BridgeU style guide",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "watch": "webpack-dev-server --open",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "keywords": [
@@ -16,6 +18,20 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@storybook/html": "^4.1.11",
-    "babel-loader": "^8.0.5"
+    "autoprefixer": "^9.4.7",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
   }
 }
