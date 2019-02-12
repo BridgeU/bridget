@@ -6,6 +6,7 @@ BridgeU’s style guide
 - [ ] Write a few base [stories][1] as a start
 - [x] Set a page-wide [decorator][2] for better-looking Storybook pages
 - [ ] Export package for production
+- [ ] Export our Storybook as a [static app][0]
 
 
 ## Features
@@ -35,3 +36,4 @@ we’ll have a nice, exportable package to put on NPM or something like it._
 [0]: http://localhost:9001
 [1]: https://storybook.js.org/basics/writing-stories/
 [2]: https://storybook.js.org/basics/writing-stories/#using-decorators
+[3]: https://storybook.js.org/basics/exporting-storybook/
