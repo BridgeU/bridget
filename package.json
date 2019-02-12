@@ -2,7 +2,7 @@
   "name": "bridget",
   "version": "0.0.1",
   "description": "BridgeU style guide",
-  "main": "index.js",
+  "main": "dist/bridget.js",
   "scripts": {
     "build": "webpack",
     "watch": "start-storybook -p 9001 -c .storybook"

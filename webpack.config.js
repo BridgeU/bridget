@@ -7,7 +7,9 @@ module.exports = {
   },
   entry: './src/app.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'bridget.js',
+    library: 'bridget',
+    libraryTarget: 'umd',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
