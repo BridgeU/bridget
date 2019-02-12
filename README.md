@@ -3,7 +3,7 @@ BridgeU’s style guide
 
 
 ## To-do
-- [ ] Write a few base [stories][1] as a start
+- [x] Write a few base [stories][1] as a start
 - [x] Set a page-wide [decorator][2] for better-looking Storybook pages
 - [ ] Export package for production
 - [ ] Export our Storybook as a [static app][0]
