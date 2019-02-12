@@ -4,7 +4,7 @@
   "description": "BridgeU style guide",
   "main": "dist/bridget.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "watch": "start-storybook -p 9001 -c .storybook"
   },
   "keywords": [
