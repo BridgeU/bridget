@@ -5,7 +5,7 @@ BridgeU’s style guide
 ## To-do
 - [x] Write a few base [stories][1] as a start
 - [x] Set a page-wide [decorator][2] for better-looking Storybook pages
-- [ ] Export package for production (with [minification][5])
+- [x] Export package for production
 - [ ] Export our Storybook as a [static app][0]
 - [ ] Check [addons][4] and see if there is anything helpful there
 
@@ -30,8 +30,9 @@ your changes in almost real time.
 
 
 ## Export
-_This part is still missing, but it will be something like `npm run build` and
-we’ll have a nice, exportable package to put on NPM or something like it._
+Running `npm run build` will update `dist/` with our JavaScript and CSS, which
+we should do every time we commit changes. This folder will contain the files
+we’ll import from other projects and allow us to reuse this style guide.
 
 
 [0]: http://localhost:9001
@@ -39,4 +40,3 @@ we’ll have a nice, exportable package to put on NPM or something like it._
 [2]: https://storybook.js.org/basics/writing-stories/#using-decorators
 [3]: https://storybook.js.org/basics/exporting-storybook/
 [4]: https://storybook.js.org/addons/addon-gallery/
-[5]: https://webpack.js.org/plugins/mini-css-extract-plugin/#minimizing-for-production
