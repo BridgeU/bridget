@@ -4,7 +4,7 @@ BridgeU’s style guide
 
 ## To-do
 - [ ] Write a few base [stories][1] as a start
-- [ ] Set a page-wide [decorator][2] for better-looking Storybook pages
+- [x] Set a page-wide [decorator][2] for better-looking Storybook pages
 - [ ] Export package for production
 
 
