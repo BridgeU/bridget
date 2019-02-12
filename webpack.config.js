@@ -13,6 +13,10 @@ module.exports = {
     library: 'bridget',
     libraryTarget: 'umd'
   },
+  externals: [
+    'jquery',
+    'popper.js',
+  ],
   plugins: [
     new MiniCssExtractPlugin({ filename: 'bridget.css' })
   ],
