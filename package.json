@@ -16,6 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/html": "^4.1.11",
     "autoprefixer": "^9.4.7",
     "babel-loader": "^8.0.5",
