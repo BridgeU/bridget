@@ -7,10 +7,10 @@ module.exports = {
   },
   entry: './src/app.js',
   output: {
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bridget.js',
     library: 'bridget',
-    libraryTarget: 'umd',
-    path: path.resolve(__dirname, 'dist')
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
