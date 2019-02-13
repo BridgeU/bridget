@@ -8,6 +8,8 @@ BridgeU’s style guide
 - [x] Export package for production
 - [ ] Export our Storybook as a [static app][0]
 - [ ] Check [addons][4] and see if there is anything helpful there
+  - https://github.com/storybooks/storybook/blob/next/addons/storysource
+  - https://github.com/storybooks/storybook/tree/master/addons/info
 
 
 ## Features
