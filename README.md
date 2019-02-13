@@ -1,5 +1,10 @@
 # bridget 💡
-BridgeU’s style guide
+BridgeU’s style guide, based on Bootstrap.
+
+This package is basically a wrapper around [Bootstrap][5] with our own spin.
+We even started with a full import instead of [picking the components][6]
+we’ll be using. This style guide is heavily under development, so please bare
+with us and a fast changing codebase.
 
 
 ## To-do
@@ -13,6 +18,7 @@ BridgeU’s style guide
 
 
 ## Features
+- 📖 Previewable
 - 🔁 Live reloading
 - 📦 Exportable
 
@@ -42,3 +48,5 @@ we’ll import from other projects and allow us to reuse this style guide.
 [2]: https://storybook.js.org/basics/writing-stories/#using-decorators
 [3]: https://storybook.js.org/basics/exporting-storybook/
 [4]: https://storybook.js.org/addons/addon-gallery/
+[5]: https://getbootstrap.com/docs/4.3/getting-started/theming/
+[6]: https://getbootstrap.com/docs/4.3/getting-started/theming/#importing
