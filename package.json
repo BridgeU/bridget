@@ -29,11 +29,11 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
-  },
-  "dependencies": {
-    "bootstrap": "^4.2.1",
+    "webpack-dev-server": "^3.1.14",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1"
   }
 }
