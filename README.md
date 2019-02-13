@@ -43,6 +43,11 @@ we should do every time we commit changes. This folder will contain the files
 we’ll import from other projects and allow us to reuse this style guide.
 
 
+## Helpful links
+- [Bridget - the story of a style guide][the-story]
+- [Design system, style-guide and components][design-system]
+
+
 [0]: http://localhost:9001
 [1]: https://storybook.js.org/basics/writing-stories/
 [2]: https://storybook.js.org/basics/writing-stories/#using-decorators
@@ -50,3 +55,5 @@ we’ll import from other projects and allow us to reuse this style guide.
 [4]: https://storybook.js.org/addons/addon-gallery/
 [5]: https://getbootstrap.com/docs/4.3/getting-started/theming/
 [6]: https://getbootstrap.com/docs/4.3/getting-started/theming/#importing
+[the-story]: https://paper.dropbox.com/doc/Bridget-the-story-of-a-style-guide--AXfhcc9ueLVCadMh292KhdXIAg-Iu0YrK8VAKelUQPU2vwVB
+[design-system]: https://paper.dropbox.com/doc/Design-system-style-guide-and-components--AXdr9oRQ_LYjUhpP4Fz89Cg8Ag-GjYKuPtF06IWRHFoQzYug
