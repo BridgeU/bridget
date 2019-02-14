@@ -11,7 +11,7 @@ with us and a fast changing codebase.
 - [x] Write a few base [stories][1] as a start
 - [x] Set a page-wide [decorator][2] for better-looking Storybook pages
 - [x] Export package for production
-- [ ] Export our Storybook as a [static app][0]
+- [x] Export our Storybook as a [static app][0]
 - [ ] Check [addons][4] and see if there is anything helpful there
   - https://github.com/storybooks/storybook/blob/next/addons/storysource
   - https://github.com/storybooks/storybook/tree/master/addons/info
@@ -42,6 +42,10 @@ Running `npm run build` will update `dist/` with our JavaScript and CSS, which
 we should do every time we commit changes. This folder will contain the files
 we’ll import from other projects and allow us to reuse this style guide.
 
+## Deploying App
+Running `npm run build-app` will create a `/public` folder with the compiled
+whole application (if needed and once it's built, it can be run by
+`npm run static-app`).
 
 ## Helpful links
 - [Bridget - the story of a style guide][the-story]
