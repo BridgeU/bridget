@@ -5,7 +5,9 @@
   "main": "dist/bridget.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "watch": "start-storybook -p 9001 -c .storybook"
+    "watch": "start-storybook -p 9001 -c .storybook",
+    "build-app": "build-storybook -c .storybook -o public",
+    "static-app": "http-server ./public"
   },
   "keywords": [
     "styleguide",
@@ -22,6 +24,7 @@
     "autoprefixer": "^9.4.7",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
+    "http-server": "^0.11.1",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
     "postcss-loader": "^3.0.0",
