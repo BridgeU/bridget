@@ -4,6 +4,13 @@
 // Bootstrap is defined through a huge number of variables. You can check them
 // all at https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
 
+/* Custom settings */
+.material-icons {
+  font-style: 1em;
+  vertical-align: middle;
+  margin-top: -0.2em;
+}
+
 $cardinal-red: #bd0013;
 
 $body-color: $cardinal-red;

@@ -12,6 +12,7 @@ with us and a fast changing codebase.
 - [x] Set a page-wide [decorator][2] for better-looking Storybook pages
 - [x] Export package for production
 - [x] Export our Storybook as a [static app][0]
+- [x] Set up [Material Design icons][7] example
 - [ ] Check [addons][4] and see if there is anything helpful there
   - https://github.com/storybooks/storybook/blob/next/addons/storysource
   - https://github.com/storybooks/storybook/tree/master/addons/info
@@ -54,3 +55,4 @@ whole application (if needed and once it's built, it can be run by
 [4]: https://storybook.js.org/addons/addon-gallery/
 [5]: https://getbootstrap.com/docs/4.3/getting-started/theming/
 [6]: https://getbootstrap.com/docs/4.3/getting-started/theming/#importing
+[7]: https://material.io/tools/icons/?style=baseline
