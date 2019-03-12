@@ -2,15 +2,30 @@ import { storiesOf } from '@storybook/html';
 
 import '../app.js';
 
-storiesOf('Components', module)
-  .add('Buttons', () => `
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <button type="button" class="btn btn-link">Link</button>
+storiesOf('Form', module)
+  .add('Button - primary', () => `
+    <button type="button" class="btn btn-success">Save</button>
+  `)
+  .add('Button - secondary', () => `
+    <button type="button" class="btn btn-secondary">Cancel</button>
+  `)
+  .add('Button - with icon', () => `
+    <button type="button" class="btn btn-success"><i class="material-icons">bookmark</i> Save</button>
+  `)
+  .add('Text input - with label', () => `
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+  `)
+  .add('Text input - without label', () => `
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address">
+  `)
+  .add('Select input', () => `
+    <select class="custom-select">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
   `);

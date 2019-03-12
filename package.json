@@ -5,7 +5,7 @@
   "main": "dist/bridget.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "watch": "start-storybook -p 9001 -c .storybook",
+    "watch": "start-storybook -s ./static -p 9001 -c .storybook",
     "build-app": "build-storybook -c .storybook -o public",
     "static-app": "http-server ./public"
   },

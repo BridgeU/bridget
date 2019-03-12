@@ -4,6 +4,35 @@
 // Bootstrap is defined through a huge number of variables. You can check them
 // all at https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
 
-$cardinal-red: #bd0013;
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-$body-color: $cardinal-red;
+
+// Bridge-U variables
+
+$cardinal-red: #bd0013;
+$parrot-green: #37B083;
+
+
+// Color system
+
+$gray-500: #808080;
+
+$primary: $cardinal-red;
+$secondary: $gray-500;
+$success: $parrot-green;
+
+
+// Components
+
+$component-active-bg: #007bff;
+
+
+// Typography
+
+$font-family-sans-serif: "Lato", sans-serif;
+
+
+// Buttons + Forms
+
+$input-btn-border-width: 2px;
