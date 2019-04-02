@@ -16,11 +16,18 @@ $parrot-green: #37B083;
 
 // Color system
 
+$gray-100: #f2f2f2;
 $gray-500: #808080;
+$gray-900: #4d4d4d;
 
 $primary: $cardinal-red;
 $secondary: $gray-500;
 $success: $parrot-green;
+
+
+// Body
+
+$body-bg: $gray-100;
 
 
 // Components

@@ -15,3 +15,26 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+
+.secondary-nav .nav-link{
+  position: relative;
+  opacity: .5;
+}
+
+.secondary-nav .nav-link.active {
+  opacity: 1;
+}
+
+.secondary-nav .nav-link.active:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0; 
+  height: 0;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -15px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid $body-bg;
+}
