@@ -43,9 +43,10 @@ we should do every time we commit changes. This folder will contain the files
 we’ll import from other projects and allow us to reuse this style guide.
 
 ## Deploying App
-Running `npm run build-app` will create a `/public` folder with the compiled
+Running `npm run build-app` will create a `docs` folder with the compiled
 whole application (if needed and once it's built, it can be run by
-`npm run static-app`).
+`npm run static-app`). `docs` was picked to automatically enable us to
+host Bridget on GitHub pages, [as documentation show][7].
 
 [0]: http://localhost:9001
 [1]: https://storybook.js.org/basics/writing-stories/
@@ -54,3 +55,4 @@ whole application (if needed and once it's built, it can be run by
 [4]: https://storybook.js.org/addons/addon-gallery/
 [5]: https://getbootstrap.com/docs/4.3/getting-started/theming/
 [6]: https://getbootstrap.com/docs/4.3/getting-started/theming/#importing
+[7]: https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch

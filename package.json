@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "start-storybook -s ./static -p 9001 -c .storybook",
-    "build-app": "build-storybook -c .storybook -o public",
-    "static-app": "http-server ./public"
+    "build-app": "build-storybook -c .storybook -o docs",
+    "static-app": "http-server ./docs"
   },
   "keywords": [
     "styleguide",
