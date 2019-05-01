@@ -15,3 +15,16 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+
+.btn {
+  color: $text-white;
+  text-transform: uppercase;
+}
+
+.btn-disabled {
+  background-color: $gray-400;
+
+  &:hover {
+    color: $text-white;
+  }
+}
