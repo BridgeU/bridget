@@ -3,13 +3,14 @@ import { storiesOf } from '@storybook/html';
 import '../app.js';
 
 storiesOf('Form', module)
-  .add('Button - primary', () => `
-    <button type="button" class="btn btn-success">Save</button>
-  `)
-  .add('Button - secondary', () => `
+  .add('Buttons', () => `
+    <h5>Primary</h5>
+    <button type="button" class="btn btn-success">Save</button><br>
+
+    <h5 class="mt-3">Secondary</h5>
     <button type="button" class="btn btn-secondary">Cancel</button>
-  `)
-  .add('Button - with icon', () => `
+
+    <h5 class="mt-3">With icon</h5>
     <button type="button" class="btn btn-success"><i class="material-icons">bookmark</i> Save</button>
   `)
   .add('Text input - with label', () => `
