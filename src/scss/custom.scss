@@ -10,8 +10,9 @@
 
 // Bridge-U variables
 
-$cardinal-red: #bd0013;
-$parrot-green: #37B083;
+$cardinal-red: #FB3F56;
+$parrot-green: #5AC39C;
+$text-white: #F3FCF9;
 
 
 // Color system
@@ -36,3 +37,15 @@ $font-family-sans-serif: "Lato", sans-serif;
 // Buttons + Forms
 
 $input-btn-border-width: 2px;
+
+$btn-border-radius: 1.25rem;
+$btn-border-radius-lg: 1.313rem;
+$btn-border-radius-sm: 1rem;
+
+$btn-line-height: 0.8125rem;
+$btn-line-height-lg: 1.125rem;
+$btn-line-height-sm: 0.8125rem;
+
+$btn-font-size: 0.6875rem;
+$btn-font-size-lg: 0.9375rem;
+$btn-font-size-sm: 0.6875rem;
