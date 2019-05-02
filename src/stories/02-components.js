@@ -4,16 +4,17 @@ import '../app.js';
 
 storiesOf('Form', module)
   .add('Buttons', () => `
-    <h5>Primary Action</h5>
-    <button type="button" class="btn btn-success">Find schools</button>
-    <button type="button" class="btn btn-danger">Remove</button>
-    <button type="button" class="btn btn-disabled" disabled>Find schools</button>
+    <h5>Buttons</h5>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
 
-    <h5 class="mt-3">Primary Action Large</h5>
-    <button type="button" class="btn btn-success btn-lg">Find schools</button>
+    <h5 class="mt-3">Sizes</h5>
+    <button type="button" class="btn btn-success btn-lg">Large button</button>
+    <button type="button" class="btn btn-success btn-sm">Small button</button>
 
-    <h5 class="mt-3">Primary Action Small</h5>
-    <button type="button" class="btn btn-success btn-sm">Find schools</button>
+    <h5 class="mt-3">Disabled</h5>
+    <button type="button" class="btn btn-success" disabled>Success disabled</button>
+    <button type="button" class="btn btn-danger" disabled>Danger disabled</button>
 
     <h5 class="mt-3">With icon</h5>
     <button type="button" class="btn btn-success"><i class="material-icons">bookmark</i> Save</button>
