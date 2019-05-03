@@ -1,0 +1,17 @@
+// BridgeU variables
+//
+// This is where we name our variables. If we are bringing a new colour to our
+// style guide, before it gets a role (primary, light, etc.), it needs a name
+// - just like Bootstrap does with its $blue, $indigo, etc.
+// Then we give it a meaning through bootstrap/_variables.scss, where we map
+// that name to a responsibility. If connected properly, Bootstrap will do the
+// rest and generate buttons and other elements from that new mapping.
+//
+// Give these variables a human-readable name unrelated from their role at the
+// application, if possible. For example, a shade of red could be called
+// '$supernova-red' instead of '$negative-action'.
+
+$cardinal-red: #bd0013;
+$flamingo-red: #fb3f56;
+$parrot-green: #37b083;
+$pigeon-grey:  #808080;

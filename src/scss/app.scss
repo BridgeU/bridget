@@ -1,17 +1,22 @@
-// BridgeU customisations
-@import 'custom';
+// BridgeU base customisations
+//
+// Prerequirements for Bootstrap customisation, like fonts and variables that
+// will be used by our Bootstrap overrides.
+@import 'bridgeu/fonts';
+@import 'bridgeu/variables';
 
-// Bootstrap CSS
-@import '~bootstrap/scss/bootstrap';
+// Bootstrap inner workings changes
+//
+// Import Bootstrap's pieces while customising them with our own preferences.
+// For example, setting up our own version of their variables (through the
+// personalisation of bootstrap/_variables.scss).
+@import 'bootstrap/bootstrap';
 
-
-.material-icons {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-top: -0.25em;
-}
-
-.custom-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
+// BridgeU custom components and advanced changes
+//
+// Bootstrap is comprehensive but eventually we run into its limitation.
+// This is where we roll out our on components and customisations,
+// like our own modifiers and new components.
+@import 'bridgeu/buttons';
+@import 'bridgeu/icons';
+@import 'bridgeu/selects';
