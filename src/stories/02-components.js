@@ -7,6 +7,7 @@ storiesOf('Form', module)
     <h5>Buttons</h5>
     <button type="button" class="btn btn-success">Success</button>
     <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link (or secondary)</button>
 
     <h5 class="mt-3">Sizes</h5>
     <button type="button" class="btn btn-success btn-lg">Large button</button>
