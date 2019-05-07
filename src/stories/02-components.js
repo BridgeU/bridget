@@ -3,13 +3,21 @@ import { storiesOf } from '@storybook/html';
 import '../app.js';
 
 storiesOf('Form', module)
-  .add('Button - primary', () => `
-    <button type="button" class="btn btn-success">Save</button>
-  `)
-  .add('Button - secondary', () => `
-    <button type="button" class="btn btn-secondary">Cancel</button>
-  `)
-  .add('Button - with icon', () => `
+  .add('Buttons', () => `
+    <h5>Buttons</h5>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link (or secondary)</button>
+
+    <h5 class="mt-3">Sizes</h5>
+    <button type="button" class="btn btn-success btn-lg">Large button</button>
+    <button type="button" class="btn btn-success btn-sm">Small button</button>
+
+    <h5 class="mt-3">Disabled</h5>
+    <button type="button" class="btn btn-success" disabled>Success disabled</button>
+    <button type="button" class="btn btn-danger" disabled>Danger disabled</button>
+
+    <h5 class="mt-3">With icon</h5>
     <button type="button" class="btn btn-success"><i class="material-icons">bookmark</i> Save</button>
   `)
   .add('Text input - with label', () => `
