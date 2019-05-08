@@ -19,6 +19,14 @@ storiesOf('Form', module)
 
     <h5 class="mt-3">With icon</h5>
     <button type="button" class="btn btn-success"><i class="material-icons">bookmark</i> Save</button>
+
+    <h5 class="mt-3">
+      <a href="https://material.io/design/components/buttons-floating-action-button.html">
+        FAB
+      </a> (Floating Action button)
+    </h5>
+    <button type="button" class="btn btn-success btn-fab"><i class="material-icons">add</i></button>
+    <button type="button" class="btn btn-danger btn-fab"><i class="material-icons">remove</i></button>
   `)
   .add('Text input - with label', () => `
     <div class="form-group">
