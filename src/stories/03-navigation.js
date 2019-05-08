@@ -4,18 +4,28 @@ import '../app.js';
 
 storiesOf('Navigation', module)
   .add('Primary nav', () => `
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary py-3">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
       <a class="navbar-brand" href="#">
         <img src="/logo.svg" width="22" height="22" alt="U" class="d-inline-block align-baseline" />
       </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"><i class="material-icons md-16">dashboard</i> Dashboard <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#"><i class="material-icons">account_balance</i> Schools</a>
-        </div>
+        <ul class="navbar-nav navbar-pills mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <i class="material-icons md-16">dashboard</i> Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="material-icons">account_balance</i> Schools
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   `)
