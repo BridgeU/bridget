@@ -1,3 +1,11 @@
 .btn {
   text-transform: uppercase;
 }
+
+// FAB (Floating Action Button)
+// https://material.io/design/components/buttons-floating-action-button.html
+.btn-fab {
+  font-weight: $font-weight-bold;
+  padding-left: 0.65em;
+  padding-right: 0.65em;
+}
