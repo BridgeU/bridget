@@ -229,7 +229,7 @@ $link-color:                              $finch-blue;
 // $line-height-lg:              1.5 !default;
 // $line-height-sm:              1.5 !default;
 
-$border-width:                2px;
+// $border-width:                1px !default;
 // $border-color:                $gray-300 !default;
 
 // $border-radius:               .25rem !default;
@@ -400,7 +400,7 @@ $font-family-sans-serif:      "Lato", sans-serif;
 // $input-btn-font-size-lg:      $font-size-lg !default;
 // $input-btn-line-height-lg:    $line-height-lg !default;
 
-// $input-btn-border-width:      $border-width !default;
+$input-btn-border-width:      2px;
 
 
 // // Buttons
