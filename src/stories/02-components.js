@@ -2,7 +2,25 @@ import { storiesOf } from '@storybook/html';
 
 import '../app.js';
 
-storiesOf('Form', module)
+storiesOf('Components', module)
+  .add('Chips / Pills', () => `
+    <span class="chip">
+      4 locations
+    </span>
+    <br>
+    <br>
+    <span class="chip">
+      Chip with icon <i class="material-icons chip_icon">edit</i>
+    </span>
+    <br>
+    <br>
+    <span class="chip">
+      Multiple chips <i class="material-icons chip_icon">remove_circle</i>
+    </span>
+    <span class="chip">
+      Side by side <i class="material-icons chip_icon">remove_circle</i>
+    </span>
+  `)
   .add('Buttons', () => `
     <h5>Buttons</h5>
     <button type="button" class="btn btn-success">Success</button>
