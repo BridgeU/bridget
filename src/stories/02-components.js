@@ -98,38 +98,50 @@ storiesOf('Components', module)
 
       <div class="form-group">
         <legend class="col-form-label">Checkboxes</legend>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck1" checked>
-          <label class="form-check-label" for="gridCheck1">First checkbox</label>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customSelectedCheck" checked>
+          <label class="custom-control-label" for="customSelectedCheck">
+            Selected custom checkbox
+          </label>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck2">
-          <label class="form-check-label" for="gridCheck2">Second checkbox</label>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck2">
+          <label class="custom-control-label" for="customCheck2">
+            Unselected custom checkbox
+          </label>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck3" disabled>
-          <label class="form-check-label" for="gridCheck3">Second checkbox</label>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customDisabledCheck" disabled>
+          <label class="custom-control-label" for="customDisabledCheck">
+            Disabled custom checkbox
+          </label>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="indeterminateCheck">
+          <label class="custom-control-label" for="indeterminateCheck">
+            Indeterminate custom checkbox (set by JavaScript)
+          </label>
         </div>
       </div>
 
       <fieldset class="form-group">
         <legend class="col-form-label">Radios</legend>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-          <label class="form-check-label" for="gridRadios1">
-            First radio
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customSelectedRadio" name="customRadio" class="custom-control-input" checked>
+          <label class="custom-control-label" for="customSelectedRadio">
+            Selected custom radio
           </label>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-          <label class="form-check-label" for="gridRadios2">
-            Second radio
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio2">
+            Unselected custom radio
           </label>
         </div>
-        <div class="form-check disabled">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-          <label class="form-check-label" for="gridRadios3">
-            Third disabled radio
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customDisabledRadio" name="customRadio" class="custom-control-input" disabled>
+          <label class="custom-control-label" for="customDisabledRadio">
+            Disabled custom radio
           </label>
         </div>
       </fieldset>
