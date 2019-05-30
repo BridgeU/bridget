@@ -535,7 +535,7 @@ $btn-border-radius-sm:        9999px;
 // $custom-control-label-disabled-color:           $gray-600 !default;
 
 // $custom-control-indicator-checked-color:        $component-active-color !default;
-// $custom-control-indicator-checked-bg:           $component-active-bg !default;
+$custom-control-indicator-checked-bg:           $radio-checkbox-checked-bg;
 // $custom-control-indicator-checked-disabled-bg:  rgba(theme-color("primary"), .5) !default;
 // $custom-control-indicator-checked-box-shadow:   none !default;
 // $custom-control-indicator-checked-border-color: $custom-control-indicator-checked-bg !default;
@@ -551,7 +551,7 @@ $btn-border-radius-sm:        9999px;
 // $custom-checkbox-indicator-border-radius:       $border-radius !default;
 // $custom-checkbox-indicator-icon-checked:        str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='#{$custom-control-indicator-checked-color}' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e"), "#", "%23") !default;
 
-// $custom-checkbox-indicator-indeterminate-bg:           $component-active-bg !default;
+$custom-checkbox-indicator-indeterminate-bg:           $radio-checkbox-checked-bg;
 // $custom-checkbox-indicator-indeterminate-color:        $custom-control-indicator-checked-color !default;
 // $custom-checkbox-indicator-icon-indeterminate:         str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3e%3cpath stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/%3e%3c/svg%3e"), "#", "%23") !default;
 // $custom-checkbox-indicator-indeterminate-box-shadow:   none !default;
