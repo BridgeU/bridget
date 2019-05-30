@@ -1,5 +1,6 @@
 # bridget 💡
 BridgeU’s style guide, based on Bootstrap.
+You can see the up to date live version [here][7].
 
 This package is basically a wrapper around [Bootstrap][5] with our own spin.
 We even started with a full import instead of [picking the components][6]
@@ -54,3 +55,4 @@ whole application (if needed and once it's built, it can be run by
 [4]: https://storybook.js.org/addons/addon-gallery/
 [5]: https://getbootstrap.com/docs/4.3/getting-started/theming/
 [6]: https://getbootstrap.com/docs/4.3/getting-started/theming/#importing
+[7]: https://bridgeu.github.io/bridget
