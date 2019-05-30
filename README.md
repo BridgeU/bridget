@@ -1,4 +1,4 @@
-# bridget 💡
+# bridget 💡 [![Build Status](https://travis-ci.org/BridgeU/bridget.svg?branch=master)](https://travis-ci.org/BridgeU/bridget)
 BridgeU’s style guide, based on Bootstrap.
 You can see the up to date live version [here][7].
 
