@@ -121,6 +121,10 @@ storiesOf('Components', module)
           <label class="custom-control-label" for="indeterminateCheck">
             Indeterminate custom checkbox (set by JavaScript)
           </label>
+          <small id="indeterminateHelp" class="form-text text-muted">
+            (<a href="javascript:window.location.reload(true)">refresh the page
+            </a> if you don’t see it)
+          </small>
         </div>
       </div>
 
