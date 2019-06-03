@@ -5,7 +5,8 @@ You can see the up to date live version [here][7].
 This package is basically a wrapper around [Bootstrap][5] with our own spin.
 We even started with a full import instead of [picking the components][6]
 we’ll be using. This style guide is heavily under development, so please bare
-with us and a fast changing codebase.
+with us and a fast changing codebase. You can read more about our thinking
+process behind it on our [wiki][8].
 
 
 ## To-do
@@ -56,3 +57,4 @@ whole application (if needed and once it's built, it can be run by
 [5]: https://getbootstrap.com/docs/4.3/getting-started/theming/
 [6]: https://getbootstrap.com/docs/4.3/getting-started/theming/#importing
 [7]: https://bridgeu.github.io/bridget
+[8]: https://github.com/BridgeU/bridget/wiki
