@@ -12,3 +12,23 @@
 .navbar-pills .show > .nav-item {
   background-color: rgba($black, .4);
 }
+
+//
+// Tabs
+//
+
+.nav-tabs {
+  $nav-tabs-bottom-divier-border-width: 1px;
+
+  border-bottom-width: $nav-tabs-bottom-divier-border-width;
+  text-transform: uppercase;
+
+  .nav-item {
+    margin-bottom: -$nav-tabs-bottom-divier-border-width;
+  }
+
+  .nav-link {
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+}
