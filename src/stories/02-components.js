@@ -45,6 +45,30 @@ storiesOf('Components', module)
     </h5>
     <button type="button" class="btn btn-success btn-fab"><i class="material-icons">add</i></button>
     <button type="button" class="btn btn-danger btn-fab"><i class="material-icons">remove</i></button>
+
+    <hr>
+
+    <h5 class="mt-3">Boostrap default buttons</h5>
+    <p>
+      These buttons are only here to show what we get “for free” from Bootstrap.
+      <br>
+      They serve mostly as a design reference for designers, they are not to be used in the app
+      unless listed and named in the previous section.
+      <br>
+      You can see the original ones <a href="https://getbootstrap.com/docs/4.3/components/buttons/#examples">
+        <strong>here</strong>
+      </a>, where this code came from.
+    </p>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button>
   `)
   .add('Forms', () => `
     <h5>Forms</h5>
