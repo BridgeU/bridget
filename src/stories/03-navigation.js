@@ -40,6 +40,7 @@ storiesOf('Navigation', module)
     <nav class="nav">
       <a class="nav-link active" href="#"><i class="material-icons">search</i> Find Schools</a>
       <a class="nav-link" href="#"><i class="material-icons">bookmark</i> Saved Schools</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
     </nav>
   `)
   .add('School cards', () => `

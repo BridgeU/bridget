@@ -2883,7 +2883,7 @@ input[type="button"].btn-block {
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #6c757d;
+    color: #cccccc;
     pointer-events: none;
     cursor: default; }
 
@@ -2898,7 +2898,7 @@ input[type="button"].btn-block {
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
       border-color: #e9ecef #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
-      color: #6c757d;
+      color: #cccccc;
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active,
