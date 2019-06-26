@@ -29,19 +29,30 @@ storiesOf('Navigation', module)
       </div>
     </nav>
   `)
-  .add('Secondary nav - dashboard', () => `
-    <nav class="nav">
-      <a class="nav-link active" href="#">Recommendations</a>
-      <a class="nav-link" href="#">Shortlists</a>
-      <a class="nav-link" href="#">Applications</a>
-    </nav>
-  `)
-  .add('Secondary nav - schools', () => `
-    <nav class="nav">
-      <a class="nav-link active" href="#"><i class="material-icons">search</i> Find Schools</a>
-      <a class="nav-link" href="#"><i class="material-icons">bookmark</i> Saved Schools</a>
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </nav>
+  .add('Secondary nav - Tabs', () => `
+    <p>
+      Our own version of
+      <a href="https://getbootstrap.com/docs/4.3/components/navs/#tabs">
+        base navigation with tabs
+      </a>. These are not supposed to be used inside a <code>navbar</code>,
+      they are secondary navigation.
+      <br>
+      If the tab clicking is not working, please reload the page.
+    </p>
+
+    <ul class="nav nav-tabs js-nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active tab</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Default tab</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+          Disabled tab
+        </a>
+      </li>
+    </ul>
   `)
   .add('School cards', () => `
     <div class="card-deck">
