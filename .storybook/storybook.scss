@@ -1,0 +1,16 @@
+@import "../src/scss/bridgeu/variables.scss";
+@import "../src/scss/bootstrap/variables.scss";
+
+//
+// CSS customisations for Storybook demo purposes
+@import "scss/cards.scss";
+
+//
+// Export some of our own variables so we can import them on the JavaScript side
+// and use them for demo purposes. This will not be available on Bridget as an
+// npm package.
+:export {
+  cardinalRed: $cardinal-red;
+  flamingoRed: $flamingo-red;
+  finchBlue: $finch-blue;
+}
