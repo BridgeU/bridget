@@ -5,7 +5,7 @@
 
 // // Color system
 
-// $white:    #fff !default;
+$white:    #fff !default;
 // $gray-100: #f8f9fa !default;
 // $gray-200: #e9ecef !default;
 // $gray-300: #dee2e6 !default;
@@ -15,7 +15,7 @@
 // $gray-700: #495057 !default;
 // $gray-800: #343a40 !default;
 // $gray-900: #212529 !default;
-// $black:    #000 !default;
+$black:    #000 !default;
 
 // $grays: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
@@ -45,11 +45,11 @@
 // $teal:    #20c997 !default;
 // $cyan:    #17a2b8 !default;
 
-// $colors: () !default;
+ $colors: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
-// $colors: map-merge(
-//   (
-//     "blue":       $blue,
+$colors: map-merge(
+   (
+//     "black":       $black,
 //     "indigo":     $indigo,
 //     "purple":     $purple,
 //     "pink":       $pink,
@@ -62,34 +62,45 @@
 //     "white":      $white,
 //     "gray":       $gray-600,
 //     "gray-dark":  $gray-800
-//   ),
-//   $colors
-// );
+   ),
+  $colors
+);
 
-// $primary:       $blue !default;
-$secondary:     $pigeon-grey;
+$primary:       $finch-blue;
+$secondary:     $cardinal-red;
 $success:       $parrot-green;
 // $info:          $cyan !default;
 // $warning:       $yellow !default;
 $danger:        $flamingo-red;
 // $light:         $gray-100 !default;
+$inactive: $inactive-gray;
 $dark:          $finch-blue;
 
-// $theme-colors: () !default;
+$dark-gray-1: $dark-gray-1;
+$dark-gray-2: $dark-gray-2;
+$dark-gray-3: $dark-gray-3;
+
+ $theme-colors: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
-// $theme-colors: map-merge(
-//   (
+ $theme-colors: map-merge(
+   (
 //     "primary":    $primary,
 //     "secondary":  $secondary,
 //     "success":    $success,
 //     "info":       $info,
 //     "warning":    $warning,
 //     "danger":     $danger,
-//     "light":      $light,
-//     "dark":       $dark
-//   ),
-//   $theme-colors
-// );
+     "inactive": $inactive,
+     "light-gray-1": $light-gray-1,
+     "light-gray-2": $light-gray-2,
+     "dark-gray-1": $dark-gray-1,
+     "dark-gray-2": $dark-gray-2,
+     "dark-gray-3": $dark-gray-3,
+     "white":       $white,
+     "black":       $black
+   ),
+   $theme-colors
+ );
 
 // // Set a specific jump point for requesting color jumps
 // $theme-color-interval:      8% !default;
