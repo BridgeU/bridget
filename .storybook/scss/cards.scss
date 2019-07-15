@@ -1,0 +1,14 @@
+//
+// Color sample cards
+//
+// Customisations for https://getbootstrap.com/docs/4.3/components/card/
+
+$color-sample-dimension: 200px;
+
+.storybook__card {
+  width: $color-sample-dimension;
+}
+
+.storybook__card-img-top {
+  height: $color-sample-dimension / 2;
+}

@@ -3,6 +3,8 @@ import { storiesOf } from '@storybook/html';
 
 import '../app.js';
 
+import '../../.storybook/storybook.scss';
+
 // storiesOf('Demo|Something', module)
 //   .add('heading', () => '<h1>Hello World</h1>')
 //   .add('button', () => {

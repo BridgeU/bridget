@@ -1,6 +1,11 @@
 import { storiesOf } from '@storybook/html';
 
 import '../app.js';
+import {
+  cardinalRed,
+  flamingoRed,
+  finchBlue,
+} from '../../.storybook/storybook.scss'
 
 storiesOf('Global', module)
   .add('Typography', () => `
@@ -16,13 +21,27 @@ storiesOf('Global', module)
     <br />
   `)
   .add('Colors', () => `
-    <div class="d-flex align-items-center mb-4">
-      <div class="p-4 mr-2 bg-primary text-white d-inline-block"></div><code>$primary</code> 
+    <h3>Brand colors</h3>
+
+    <div class="card storybook__card float-left mr-3">
+      <div class="card-img-top storybook__card-img-top" style="background: ${cardinalRed}"></div>
+      <div class="card-body">
+        <span class="card-text">${cardinalRed}</span>
+        <pre class="card-text font-weight-bold">$cardinal-red</pre>
+      </div>
     </div>
-    <div class="d-flex align-items-center mb-4">
-      <div class="p-4 mr-2 bg-success text-white d-inline-block"></div><code>$success</code> 
+    <div class="card storybook__card float-left mr-3">
+      <div class="card-img-top storybook__card-img-top" style="background: ${flamingoRed}"></div>
+      <div class="card-body">
+        <span class="card-text">${flamingoRed}</span>
+        <pre class="card-text font-weight-bold">$flamingo-red</pre>
+      </div>
     </div>
-    <div class="d-flex align-items-center mb-4">
-      <div class="p-4 mr-2 bg-secondary text-white d-inline-block"></div><code>$secondary</code> 
+    <div class="card storybook__card float-left mr-3">
+      <div class="card-img-top storybook__card-img-top" style="background: ${finchBlue}"></div>
+      <div class="card-body">
+        <span class="card-text">${finchBlue}</span>
+        <pre class="card-text font-weight-bold">$finch-blue</pre>
+      </div>
     </div>
   `);
