@@ -408,18 +408,18 @@ $font-family-sans-serif:      "Lato", sans-serif;
 // // For each of Bootstrap's buttons, define text, background, and border color.
 
 // $btn-padding-y:               $input-btn-padding-y !default;
-// $btn-padding-x:               $input-btn-padding-x !default;
+$btn-padding-x:               1.25rem;
 // $btn-font-family:             $input-btn-font-family !default;
 // $btn-font-size:               $input-btn-font-size !default;
 // $btn-line-height:             $input-btn-line-height !default;
 
 // $btn-padding-y-sm:            $input-btn-padding-y-sm !default;
-// $btn-padding-x-sm:            $input-btn-padding-x-sm !default;
+$btn-padding-x-sm:            1rem;
 // $btn-font-size-sm:            $input-btn-font-size-sm !default;
 // $btn-line-height-sm:          $input-btn-line-height-sm !default;
 
 // $btn-padding-y-lg:            $input-btn-padding-y-lg !default;
-// $btn-padding-x-lg:            $input-btn-padding-x-lg !default;
+$btn-padding-x-lg:            1.5rem;
 // $btn-font-size-lg:            $input-btn-font-size-lg !default;
 // $btn-line-height-lg:          $input-btn-line-height-lg !default;
 
