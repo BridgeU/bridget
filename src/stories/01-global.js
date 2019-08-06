@@ -15,6 +15,12 @@ storiesOf('Global', module)
     <br />
     <h3 class="h3">h3. World-class university and careers guidance</h3>
     <br />
+    <h3 class="h4">h4. World-class university and careers guidance</h4>
+    <br />
+    <h3 class="h5">h5. World-class university and careers guidance</h5>
+    <br />
+    <h3 class="h6">h6. World-class university and careers guidance</h6>
+    <br />
     <p>
       <strong>Note:</strong> Just as
       <a class="underline" href="https://getbootstrap.com/docs/4.3/content/typography/"><u>Bootstrap provides</u></a>,
