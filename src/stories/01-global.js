@@ -9,16 +9,27 @@ import {
 
 storiesOf('Global', module)
   .add('Typography', () => `
-    <p class="">World-class university and careers guidance for global secondary schools</p>
+    <h1 class="h1">h1. World-class university and careers guidance</h1>
     <br />
-    <p class="">World-class university and careers guidance for global secondary schools</p>
+    <h2 class="h2">h2. World-class university and careers guidance</h2>
     <br />
-    <p class="">World-class university and careers guidance for global secondary schools</p>
+    <h3 class="h3">h3. World-class university and careers guidance</h3>
     <br />
-    <p class="">World-class university and careers guidance for global secondary schools</p>
+    <h3 class="h4">h4. World-class university and careers guidance</h4>
     <br />
-    <p class="">World-class university and careers guidance for global secondary schools</p>
+    <h3 class="h5">h5. World-class university and careers guidance</h5>
     <br />
+    <h3 class="h6">h6. World-class university and careers guidance</h6>
+    <br />
+    <p>
+      <strong>Note:</strong> Just as
+      <a class="underline" href="https://getbootstrap.com/docs/4.3/content/typography/"><u>Bootstrap provides</u></a>,
+      we have styled <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>
+      to allow us to use the most semantic elements whenever possible,
+      but the corresponding <code>.h1</code> through <code>.h6</code> classes
+      are also available, for when you want to match the font styling of a
+      heading but cannot use the associated HTML element.
+    </p>
   `)
   .add('Colors', () => `
     <h3>Brand colors</h3>
