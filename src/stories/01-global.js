@@ -5,12 +5,12 @@ import {
   cardinalRed,
   flamingoRed,
   finchBlue,
-  grey1,
-  grey2,
-  grey3,
-  grey4,
-  grey5,
-  grey6,
+  gray1,
+  gray2,
+  gray3,
+  gray5,
+  gray7,
+  gray9,
 } from '../../.storybook/storybook.scss'
 
 storiesOf('Global', module)
@@ -69,45 +69,45 @@ storiesOf('Global', module)
     <h3>Greys</h3>
 
     <div class="card storybook__card float-left mr-3 mb-3">
-      <div class="card-img-top storybook__card-img-top" style="background: ${grey1}"></div>
+      <div class="card-img-top storybook__card-img-top" style="background: ${gray1}"></div>
       <div class="card-body">
-        <span class="card-text">${grey1}</span>
-        <pre class="card-text font-weight-bold">$grey-100</pre>
+        <span class="card-text">${gray1}</span>
+        <pre class="card-text font-weight-bold">$gray-100</pre>
       </div>
     </div>
     <div class="card storybook__card float-left mr-3 mb-3">
-      <div class="card-img-top storybook__card-img-top" style="background: ${grey2}"></div>
+      <div class="card-img-top storybook__card-img-top" style="background: ${gray2}"></div>
       <div class="card-body">
-        <span class="card-text">${grey2}</span>
-        <pre class="card-text font-weight-bold">$grey-200</pre>
+        <span class="card-text">${gray2}</span>
+        <pre class="card-text font-weight-bold">$gray-200</pre>
       </div>
     </div>
     <div class="card storybook__card float-left mr-3 mb-3">
-      <div class="card-img-top storybook__card-img-top" style="background: ${grey3}"></div>
+      <div class="card-img-top storybook__card-img-top" style="background: ${gray3}"></div>
       <div class="card-body">
-        <span class="card-text">${grey3}</span>
-        <pre class="card-text font-weight-bold">$grey-300</pre>
+        <span class="card-text">${gray3}</span>
+        <pre class="card-text font-weight-bold">$gray-300</pre>
       </div>
     </div>
     <div class="card storybook__card float-left mr-3 mb-3">
-      <div class="card-img-top storybook__card-img-top" style="background: ${grey4}"></div>
+      <div class="card-img-top storybook__card-img-top" style="background: ${gray5}"></div>
       <div class="card-body">
-        <span class="card-text">${grey4}</span>
-        <pre class="card-text font-weight-bold">$grey-400</pre>
+        <span class="card-text">${gray5}</span>
+        <pre class="card-text font-weight-bold">$gray-500</pre>
       </div>
     </div>
     <div class="card storybook__card float-left mr-3 mb-3">
-      <div class="card-img-top storybook__card-img-top" style="background: ${grey5}"></div>
+      <div class="card-img-top storybook__card-img-top" style="background: ${gray7}"></div>
       <div class="card-body">
-        <span class="card-text">${grey5}</span>
-        <pre class="card-text font-weight-bold">$grey-500</pre>
+        <span class="card-text">${gray7}</span>
+        <pre class="card-text font-weight-bold">$gray-700</pre>
       </div>
     </div>
     <div class="card storybook__card float-left mr-3 mb-3">
-      <div class="card-img-top storybook__card-img-top" style="background: ${grey6}"></div>
+      <div class="card-img-top storybook__card-img-top" style="background: ${gray9}"></div>
       <div class="card-body">
-        <span class="card-text">${grey6}</span>
-        <pre class="card-text font-weight-bold">$grey-600</pre>
+        <span class="card-text">${gray9}</span>
+        <pre class="card-text font-weight-bold">$gray-900</pre>
       </div>
     </div>
 
