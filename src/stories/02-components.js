@@ -269,7 +269,7 @@ storiesOf('Components', module)
       <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Saved Schools
       </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <div class="dropdown-menu shadow" aria-labelledby="dropdownMenuButton">
         <div class="dropdown-item d-flex justify-content-between align-items-center"><a href="#">Some school</a><i class="material-icons">delete</i></div>
         <a class="dropdown-item" href="#">Magical Mystery Schools<i class="material-icons">delete</i></a>
         <a class="dropdown-item" href="#">French International Schools</a>
@@ -295,7 +295,7 @@ storiesOf('Components', module)
     <div class="mb-5"></div>
 
     <h5>School discovery card</h5>
-    <div class="card">
+    <div class="card shadow-sm">
       <div class="card-body">
         <div class="d-flex justify-content-between">
           <div class="d-flex flex-column justify-content-center">
@@ -318,7 +318,7 @@ storiesOf('Components', module)
     <div class="mb-5"></div>
 
     <h5>Visits card</h5>
-    <div class="card">
+    <div class="card shadow-sm">
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-center">
 
