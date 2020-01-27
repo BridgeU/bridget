@@ -14,6 +14,11 @@ storiesOf('Components', module)
 
     <div class="mb-5"></div>
 
+    <h5>Light button</h5>
+    <button type="button" class="btn btn-light">Light</button>
+
+    <div class="mb-5"></div>
+
     <h5>Link button</h5>
     <button type="button" class="btn btn-link">Link button</button>
 
