@@ -349,6 +349,39 @@ storiesOf('Components', module)
       </div>
     </div>
   `)
+  .add('Tables', () => `
+    <div>
+
+    <h5>Hoverable Table</h5>
+    <div class="card shadow-sm p-2">
+      <table class="table table-borderless table-hover">
+        <thead>
+          <tr>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Harry</td>
+            <td>Potter</td>
+            <td>harry@hogwarts.com</td>
+          </tr>
+          <tr>
+            <td>Hermione</td>
+            <td>Granger</td>
+            <td>hermione@hogwarts.com</td>
+          </tr>
+          <tr>
+            <td>Ron</td>
+            <td>Weasley</td>
+            <td>ron@weasley.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  `)
   .add('Modals', () => `
     <div>
 

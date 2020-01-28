@@ -1,0 +1,21 @@
+//
+// Basic Bootstrap table
+//
+
+// Hover effect
+//
+// Placed here since it has to come after the potential zebra striping
+
+.table-hover {
+  tbody tr {
+    transition: $transition-base;
+
+    td:first-child, th:first-child {
+      border-radius: .5rem 0 0 .5rem;
+    }
+
+    td:last-child {
+      border-radius: 0 .5rem .5rem 0;
+    }
+  }
+}

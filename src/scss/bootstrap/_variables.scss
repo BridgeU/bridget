@@ -15,7 +15,7 @@ $gray-600: #808080;
 $gray-700: #666666;
 $gray-800: #4D4D4D;
 $gray-900: #333333;
-// $black:    #000 !default;
+$black:    #000;
 
 // $grays: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
@@ -352,7 +352,7 @@ $h3-font-size:                $font-size-base * 1.75; // `28px` assuming $font-s
 // $table-bg:                    null !default;
 // $table-accent-bg:             rgba($black, .05) !default;
 // $table-hover-color:           $table-color !default;
-// $table-hover-bg:              rgba($black, .075) !default;
+$table-hover-bg:              rgba($black, .05);
 // $table-active-bg:             $table-hover-bg !default;
 
 // $table-border-width:          $border-width !default;
@@ -820,7 +820,7 @@ $dropdown-border-radius:            .5rem;
 // $card-spacer-y:                     .75rem !default;
 // $card-spacer-x:                     1.25rem !default;
 // $card-border-width:                 $border-width !default;
-// $card-border-radius:                $border-radius !default;
+$card-border-radius:                .5rem;
 // $card-border-color:                 rgba($black, .125) !default;
 // $card-inner-border-radius:          calc(#{$card-border-radius} - #{$card-border-width}) !default;
 // $card-cap-bg:                       rgba($black, .03) !default;
