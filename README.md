@@ -44,10 +44,17 @@ Running `npm run build` will update `dist/` with our JavaScript and CSS, which
 we should do every time we commit changes. This folder will contain the files
 we’ll import from other projects and allow us to reuse this style guide.
 
+
 ## Deploying App
 Running `npm run build-app` will create a `/public` folder with the compiled
 whole application (if needed and once it's built, it can be run by
 `npm run static-app`).
+
+
+## Resources
+Useful reading material about design systems and whatnot.
+- [How design systems use Storybook](https://medium.com/storybookjs/how-design-systems-use-storybook-2ed735ad07a9)
+
 
 [0]: http://localhost:9001
 [1]: https://storybook.js.org/basics/writing-stories/
