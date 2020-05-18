@@ -48,6 +48,21 @@ storiesOf('Components', module)
 
     <hr class="my-5" />
 
+    <h5>Secondary pill button</h5>
+    <button type="button" class="btn btn-sm btn-pill-secondary">Secondary</button>
+
+    <div class="mb-5"></div>
+
+    <h5>Danger pill button</h5>
+    <button type="button" class="btn btn-sm btn-pill-danger">Danger</button>
+
+    <div class="mb-5"></div>
+
+    <h5>Success pill button</h5>
+    <button type="button" class="btn btn-sm btn-pill-success">Success</button>
+
+    <hr class="my-5" />
+
     <a href="https://getbootstrap.com/docs/4.3/components/buttons/#examples">Boostrap buttons documentation</a>
   `)
   .add('Forms / Input', () => `
@@ -174,7 +189,7 @@ storiesOf('Components', module)
       <button type="submit" class="btn btn-success">Confirm identity</button>
     </form>
   `)
-  .add('Chips / Pills', () => `
+  .add('Chips', () => `
     <h5>Simple chip</h5>
     <div class="chip">
       4 locations
@@ -195,7 +210,7 @@ storiesOf('Components', module)
     <div class="chip">
       Side by side <i class="material-icons chip_icon">remove_circle</i>
     </div>
-  `) 
+  `)
   .add('Badges', () => `
     <div>
     <h5>Success badge</h5>
@@ -214,7 +229,7 @@ storiesOf('Components', module)
 
     <a href="https://getbootstrap.com/docs/4.3/components/badge/">Boostrap badges documentation</a>
     </div>
-  `) 
+  `)
   .add('Primary nav', () => `
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
       <a class="navbar-brand" href="#">
@@ -288,7 +303,7 @@ storiesOf('Components', module)
 
     <a href="https://getbootstrap.com/docs/4.3/components/dropdowns/">Boostrap dropdowns documentation</a>
     </div>
-  `)  
+  `)
   .add('Cards', () => `
     <h5>Empty card</h5>
     <div class="card shadow-sm">
