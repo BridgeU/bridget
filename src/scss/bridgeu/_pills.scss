@@ -1,0 +1,90 @@
+// "Pill" buttons
+
+.pill {
+  // Copied from button; `@extend .btn` was creating too much unnecessary CSS
+  // Commented lines are kept for reference
+  display: inline-block;
+  font-family: $btn-font-family;
+  // font-weight: $btn-font-weight;
+  color: $body-color;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: $btn-border-width solid transparent;
+  // @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+  @include transition($btn-transition);
+
+  @include hover {
+    color: $body-color;
+    text-decoration: none;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: $btn-focus-box-shadow;
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    opacity: $btn-disabled-opacity;
+    @include box-shadow(none);
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    @include box-shadow($btn-active-box-shadow);
+
+    &:focus {
+      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+    }
+  }
+
+  // BridgeU code
+  font-weight: $font-weight-bold;
+  font-size: $font-size-12;
+
+  @include button-size(
+    $btn-padding-y-sm,
+    $btn-padding-x-sm,
+    $btn-font-size-sm,
+    $btn-line-height-sm,
+    $btn-border-radius-sm
+  );
+}
+
+$pill-colors: (
+  secondary: (
+    main: $secondary,
+    background: lighten($secondary, 40%),
+    active-background: lighten($secondary, 35%)
+  ),
+  danger: (
+    main: $danger,
+    background: inherit,
+    active-background: lighten($danger, 40%)
+  ),
+  success: (
+    main: $success,
+    background: lighten($success, 40%),
+    active-background: lighten($success, 35%)
+  )
+) !default;
+
+@each $color, $map in $pill-colors {
+  .pill-#{$color} {
+    $main: map-get($map, main);
+    $background: map-get($map, background);
+    $active-background: map-get($map, active-background);
+
+    @include button-outline-variant(
+      $main,
+      $color-hover: $main,
+      $active-background: $active-background
+    );
+
+    background: $background;
+  }
+}
