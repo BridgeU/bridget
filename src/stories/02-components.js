@@ -48,22 +48,27 @@ storiesOf('Components', module)
 
     <hr class="my-5" />
 
-    <h5>Secondary pill button</h5>
-    <button type="button" class="btn btn-sm btn-pill-secondary">Secondary</button>
+    <a href="https://getbootstrap.com/docs/4.3/components/buttons/#examples">Boostrap buttons documentation</a>
+  `)
+  .add('Pills', () => `
+    <h5>Secondary pill</h5>
+    <button type="button" class="pill pill-secondary">Secondary</button>
 
     <div class="mb-5"></div>
 
-    <h5>Danger pill button</h5>
-    <button type="button" class="btn btn-sm btn-pill-danger">Danger</button>
+    <h5>Danger pill</h5>
+    <button type="button" class="pill pill-danger">Danger</button>
 
     <div class="mb-5"></div>
 
-    <h5>Success pill button</h5>
-    <button type="button" class="btn btn-sm btn-pill-success">Success</button>
+    <h5>Success pill</h5>
+    <button type="button" class="pill pill-success">Success</button>
 
     <hr class="my-5" />
 
-    <a href="https://getbootstrap.com/docs/4.3/components/buttons/#examples">Boostrap buttons documentation</a>
+    <a href="https://getbootstrap.com/docs/4.3/components/buttons/#examples">
+      Boostrap buttons documentation
+    </a> (pills are built on top of button mixins)
   `)
   .add('Forms / Input', () => `
     <form>

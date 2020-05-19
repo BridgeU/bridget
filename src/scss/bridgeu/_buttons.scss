@@ -5,33 +5,3 @@
   padding-left: 0.65em;
   padding-right: 0.65em;
 }
-
-// "Pill" buttons
-// First seen on Document Sending v2
-$pill-colors: (
-  secondary: (
-    main: $secondary,
-    background: lighten($secondary, 40%)
-  ),
-  danger: (
-    main: $danger,
-    background: inherit
-  ),
-  success: (
-    main: $success,
-    background: lighten($success, 40%)
-  )
-) !default;
-
-@each $color, $map in $pill-colors {
-  .btn-pill-#{$color} {
-    $main: map-get($map, main);
-    $background: map-get($map, background);
-
-    @include button-outline-variant($main);
-
-    font-weight: $font-weight-bold;
-    font-size: $small-font-size;
-    background: $background;
-  }
-}
