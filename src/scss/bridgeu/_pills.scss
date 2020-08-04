@@ -70,6 +70,11 @@ $pill-colors: (
     main: $success,
     background: lighten($success, 40%),
     active-background: lighten($success, 35%)
+  ),
+  warning: (
+    main: $warning,
+    background: lighten($warning, 40%),
+    active-background: lighten($warning, 35%)
   )
 ) !default;
 

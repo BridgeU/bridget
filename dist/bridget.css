@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -7205,6 +7205,28 @@ a.text-dark:hover, a.text-dark:focus {
     .pill-success:not(:disabled):not(.disabled):active:focus, .pill-success:not(:disabled):not(.disabled).active:focus,
     .show > .pill-success.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(55, 176, 131, 0.5); }
+
+.pill-warning {
+  color: #ffc107;
+  border-color: #ffc107;
+  background: #fff4d3; }
+  .pill-warning:hover {
+    color: #ffc107;
+    background-color: #ffeeba;
+    border-color: #ffc107; }
+  .pill-warning:focus, .pill-warning.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
+  .pill-warning.disabled, .pill-warning:disabled {
+    color: #ffc107;
+    background-color: transparent; }
+  .pill-warning:not(:disabled):not(.disabled):active, .pill-warning:not(:disabled):not(.disabled).active,
+  .show > .pill-warning.dropdown-toggle {
+    color: #333333;
+    background-color: #ffeeba;
+    border-color: #ffc107; }
+    .pill-warning:not(:disabled):not(.disabled):active:focus, .pill-warning:not(:disabled):not(.disabled).active:focus,
+    .show > .pill-warning.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
 
 .custom-select {
   -webkit-appearance: none;

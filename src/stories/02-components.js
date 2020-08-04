@@ -64,6 +64,11 @@ storiesOf('Components', module)
     <h5>Success pill</h5>
     <button type="button" class="pill pill-success">Success</button>
 
+    <div class="mb-5"></div>
+
+    <h5>Warning pill</h5>
+    <button type="button" class="pill pill-warning">Warning</button>
+
     <hr class="my-5" />
 
     <a href="https://getbootstrap.com/docs/4.3/components/buttons/#examples">
