@@ -44,12 +44,11 @@
 
   // BridgeU code
   font-weight: $font-weight-bold;
-  font-size: $font-size-12;
 
   @include button-size(
     $btn-padding-y-sm,
     $btn-padding-x-sm,
-    $btn-font-size-sm,
+    $font-size-12,
     $btn-line-height-sm,
     $btn-border-radius-sm
   );
