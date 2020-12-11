@@ -1,6 +1,10 @@
 {
   "name": "bridget",
   "version": "0.0.1",
+  "enginesStrict": true,
+  "engines": {
+    "node": "11.14.0"
+  },
   "description": "BridgeU style guide",
   "main": "dist/bridget.js",
   "scripts": {
