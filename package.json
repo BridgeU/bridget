@@ -1,6 +1,6 @@
 {
   "name": "bridget",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "BridgeU style guide",
   "main": "dist/bridget.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "ui",
     "ux"
   ],
-  "author": "Gonçalo Morais <goncalo@bridge-u.com>",
+  "author": "Bridge-U Team <dev@bridge-u.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.0",
+    "jquery": "3.4.1",
     "popper.js": "^1.14.7"
   }
 }
