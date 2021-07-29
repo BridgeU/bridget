@@ -61,6 +61,11 @@ storiesOf('Components', module)
 
     <div class="mb-5"></div>
 
+    <h5>Danger Secondary pill</h5>
+    <button type="button" class="pill pill-danger-secondary">Danger secondary</button>
+
+    <div class="mb-5"></div>
+
     <h5>Success pill</h5>
     <button type="button" class="pill pill-success">Success</button>
 
