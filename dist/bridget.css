@@ -7227,6 +7227,28 @@ a.text-dark:hover, a.text-dark:focus {
     .show > .pill-warning.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
 
+.pill-danger-secondary {
+  color: #dc3545;
+  border-color: #dc3545;
+  background: #fae3e5; }
+  .pill-danger-secondary:hover {
+    color: #dc3545;
+    background-color: #f6cdd1;
+    border-color: #dc3545; }
+  .pill-danger-secondary:focus, .pill-danger-secondary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); }
+  .pill-danger-secondary.disabled, .pill-danger-secondary:disabled {
+    color: #dc3545;
+    background-color: transparent; }
+  .pill-danger-secondary:not(:disabled):not(.disabled):active, .pill-danger-secondary:not(:disabled):not(.disabled).active,
+  .show > .pill-danger-secondary.dropdown-toggle {
+    color: #333333;
+    background-color: #f6cdd1;
+    border-color: #dc3545; }
+    .pill-danger-secondary:not(:disabled):not(.disabled):active:focus, .pill-danger-secondary:not(:disabled):not(.disabled).active:focus,
+    .show > .pill-danger-secondary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); }
+
 .custom-select {
   -webkit-appearance: none;
   -moz-appearance: none; }

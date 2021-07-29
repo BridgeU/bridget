@@ -74,6 +74,11 @@ $pill-colors: (
     main: $warning,
     background: lighten($warning, 40%),
     active-background: lighten($warning, 35%)
+  ),
+  danger-secondary: (
+    main: $danger,
+    background: lighten($danger, 40%),
+    active-background: lighten($danger, 35%)
   )
 ) !default;
 
