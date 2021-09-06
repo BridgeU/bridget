@@ -1,0 +1,13 @@
+//-------------------------------
+// Helpers
+//-------------------------------
+
+@mixin font-size($font-size) {
+  @if type-of($font-size) == number {
+    font-size: #{$font-size} + px !important;
+  }
+
+  @else {
+    @warn "Can only be used with numerical values";
+  }
+}
