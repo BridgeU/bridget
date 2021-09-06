@@ -1,15 +1,5 @@
 // Sizes of the Material icons (in px) present in Student UX
-$material-icon-sizes: (
-  'xxxsmall': 15, 
-  'xxsmall': 20,
-  'xsmall': 25,
-  'small': 30,
-  'medium': 35,
-  'large': 40,
-  'xlarge': 60,
-  'xxlarge': 80,
-  'xxxlarge': 100
-);
+$material-icon-sizes: ( 15, 20, 25, 30, 35, 40, 60, 80, 100 );
 
 .material-icons {
   font-size: 1em;
@@ -17,9 +7,9 @@ $material-icon-sizes: (
   margin-top: -0.25em;
 }
 
-@each $size, $value in $material-icon-sizes {
-  .material-#{$size} {
-    @include font-size($value);
+@each $icon-size in $material-icon-sizes {
+  .u-material-size-#{$icon-size} {
+    @include icon-size($icon-size);
   }
 }
 

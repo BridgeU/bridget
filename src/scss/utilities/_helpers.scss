@@ -2,9 +2,9 @@
 // Helpers
 //-------------------------------
 
-@mixin font-size($font-size) {
-  @if type-of($font-size) == number {
-    font-size: #{$font-size} + px !important;
+@mixin icon-size($icon-font-size) {
+  @if type-of($icon-font-size) == number {
+    font-size: $icon-font-size + px !important;
   }
 
   @else {

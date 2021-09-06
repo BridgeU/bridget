@@ -7093,32 +7093,32 @@ a.text-dark:hover, a.text-dark:focus {
   vertical-align: middle;
   margin-top: -0.25em; }
 
-.material-xxxsmall {
-  font-size: 0.9375rem; }
+.u-material-size-15 {
+  font-size: 15px !important; }
 
-.material-xxsmall {
-  font-size: 1.25rem; }
+.u-material-size-20 {
+  font-size: 20px !important; }
 
-.material-xsmall {
-  font-size: 1.5625rem; }
+.u-material-size-25 {
+  font-size: 25px !important; }
 
-.material-small {
-  font-size: 1.875rem; }
+.u-material-size-30 {
+  font-size: 30px !important; }
 
-.material-medium {
-  font-size: 2.1875rem; }
+.u-material-size-35 {
+  font-size: 35px !important; }
 
-.material-large {
-  font-size: 2.5rem; }
+.u-material-size-40 {
+  font-size: 40px !important; }
 
-.material-xlarge {
-  font-size: 3.75rem; }
+.u-material-size-60 {
+  font-size: 60px !important; }
 
-.material-xxlarge {
-  font-size: 5rem; }
+.u-material-size-80 {
+  font-size: 80px !important; }
 
-.material-xxxlarge {
-  font-size: 6.25rem; }
+.u-material-size-100 {
+  font-size: 100px !important; }
 
 .navbar-pills .nav-item {
   padding: 0.375rem 1.25rem;
