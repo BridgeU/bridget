@@ -1,0 +1,13 @@
+//-------------------------------
+// Helpers
+//-------------------------------
+
+@mixin icon-size($icon-font-size) {
+  @if type-of($icon-font-size) == number {
+    font-size: $icon-font-size + px !important;
+  }
+
+  @else {
+    @warn "Can only be used with numerical values";
+  }
+}

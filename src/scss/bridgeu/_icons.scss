@@ -1,5 +1,16 @@
+// Sizes of the Material icons (in px) present in Student UX
+$material-icon-sizes: ( 15, 20, 25, 30, 35, 40, 60, 80, 100 );
+
 .material-icons {
   font-size: 1em;
   vertical-align: middle;
   margin-top: -0.25em;
 }
+
+@each $icon-size in $material-icon-sizes {
+  .u-material-size-#{$icon-size} {
+    @include icon-size($icon-size);
+  }
+}
+
+
