@@ -63,3 +63,5 @@ typings/
 # public static app files
 public/*
 !public/.gitkeep
+
+.idea/
