@@ -1,6 +1,6 @@
 {
   "name": "bridget",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "BridgeU style guide",
   "main": "dist/bridget.js",
   "scripts": {
@@ -26,17 +26,17 @@
     "css-loader": "^2.1.0",
     "http-server": "^0.11.1",
     "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.11.0",
+    "sass": "^1.15.2",
     "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^10.4.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "3.4.1",
-    "popper.js": "^1.14.7"
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
   }
 }
