@@ -1,6 +1,6 @@
 {
   "name": "bridget",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "BridgeU style guide",
   "main": "dist/bridget.js",
   "scripts": {
