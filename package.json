@@ -1,11 +1,10 @@
 {
   "name": "bridget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BridgeU style guide",
   "main": "dist/bridget.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "static-app": "http-server ./public"
   },
   "keywords": [
     "styleguide",
