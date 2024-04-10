@@ -11,17 +11,17 @@
 
 // $grays: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
-// $grays: (
-//   "100": $gray-100,
-//   "200": $gray-200,
-//   "300": $gray-300,
-//   "400": $gray-400,
-//   "500": $gray-500,
-//   "600": $gray-600,
-//   "700": $gray-700,
-//   "800": $gray-800,
-//   "900": $gray-900
-// );
+ $grays: (
+   "100": $grey-100,
+   "200": $grey-200,
+   "300": $grey-300,
+   "400": $grey-400,
+   "500": $grey-500,
+   "600": $grey-600,
+   "700": $grey-700,
+   "800": $grey-800,
+   "900": $grey-900
+ );
 
 // $blue:    #007bff !default;
 // $indigo:  #6610f2 !default;
@@ -67,13 +67,13 @@
 // $theme-colors: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
  $theme-colors: (
-   "primary":    $primary,
-   "secondary":  $gray-600,
+   "primary":    $secondary,
+   "secondary":  $grey-700,
    "success":    $success,
    "info":       $info,
    "warning":    $warning,
    "danger":     $danger,
-   "light":      $gray-200,
+   "light":      $grey-200,
    "dark":       $dark
 );
 
@@ -216,7 +216,7 @@ $link-color:                             $info;
 // $line-height-sm:              1.5 !default;
 
 // $border-width:                1px !default;
-$border-color:                $gray-200;
+$border-color:                $grey-200;
 
 // $border-radius:               .25rem !default;
 // $border-radius-lg:            .3rem !default;
@@ -457,7 +457,7 @@ $btn-border-radius-sm:        9999px;
 // $input-disabled-bg:                     $gray-200 !default;
 
 // $input-color:                           $gray-700 !default;
-$input-border-color:                    $gray-300;
+$input-border-color:                    $grey-300;
 // $input-border-width:                    $input-btn-border-width !default;
 // $input-box-shadow:                      inset 0 1px 1px rgba($black, .075) !default;
 
@@ -512,7 +512,7 @@ $input-border-color:                    $gray-300;
 
 // $custom-control-indicator-bg-size:      50% 50% !default;
 // $custom-control-indicator-box-shadow:   $input-box-shadow !default;
-$custom-control-indicator-border-color: $gray-300;
+$custom-control-indicator-border-color: $grey-300;
 // $custom-control-indicator-border-width: $input-border-width !default;
 
 // $custom-control-label-color:            null !default;
@@ -674,7 +674,7 @@ $custom-checkbox-indicator-indeterminate-bg:           $success;
 
 // $nav-link-padding-y:                .5rem !default;
 // $nav-link-padding-x:                1rem !default;
-$nav-link-disabled-color:              $gray-300;
+$nav-link-disabled-color:              $grey-300;
 
 // $nav-tabs-border-color:             $gray-300 !default;
 $nav-tabs-border-width:             $nav-tabs-tab-border-width;
