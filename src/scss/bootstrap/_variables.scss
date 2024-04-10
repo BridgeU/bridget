@@ -1,3 +1,4 @@
+@import "../bridgeu/_variables.scss";
 // // Variables
 // //
 // // Variables should follow the `$component-state-property-size` formula for
@@ -6,33 +7,30 @@
 // // Color system
 
 // $white:    #fff !default;
-$gray-100: #F2F2F2;
-$gray-200: #E6E6E6;
-$gray-300: #CCCCCC;
-$gray-400: #B3B3B3;
-$gray-500: #999999;
-$gray-600: #808080;
-$gray-700: #666666;
-$gray-800: #4D4D4D;
-$gray-900: #333333;
-$black:    #000;
+//$gray-100: #F2F2F2;
+//$gray-200: #E6E6E6;
+//$gray-300: #CCCCCC;
+//$gray-400: #B3B3B3;
+//$gray-500: #999999;
+//$gray-600: #808080;
+//$gray-700: #666666;
+//$gray-800: #4D4D4D;
+//$gray-900: #333333;
+//$black:    #000;
 
 // $grays: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
-// $grays: map-merge(
-//   (
-//     "100": $gray-100,
-//     "200": $gray-200,
-//     "300": $gray-300,
-//     "400": $gray-400,
-//     "500": $gray-500,
-//     "600": $gray-600,
-//     "700": $gray-700,
-//     "800": $gray-800,
-//     "900": $gray-900
-//   ),
-//   $grays
-// );
+ $grays: (
+   "100": $grey-100,
+   "200": $grey-200,
+   "300": $grey-300,
+   "400": $grey-400,
+   "500": $grey-500,
+   "600": $grey-600,
+   "700": $grey-700,
+   "800": $grey-800,
+   "900": $grey-900
+ );
 
 // $blue:    #007bff !default;
 // $indigo:  #6610f2 !default;
@@ -67,29 +65,26 @@ $black:    #000;
 // );
 
 // $primary:       $blue !default;
-$secondary:     $gray-600;
-$success:       $parrot-green;
+//$secondary:     $gray-600;
+//$success:       $parrot-green;
 // $info:          $cyan !default;
 // $warning:       $yellow !default;
 // $danger:        $red !default;
-$light:         $gray-200;
-$dark:          $finch-blue;
+//$light:         $gray-200;
+//$dark:          $finch-blue;
 
 // $theme-colors: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
-// $theme-colors: map-merge(
-//   (
-//     "primary":    $primary,
-//     "secondary":  $secondary,
-//     "success":    $success,
-//     "info":       $info,
-//     "warning":    $warning,
-//     "danger":     $danger,
-//     "light":      $light,
-//     "dark":       $dark
-//   ),
-//   $theme-colors
-// );
+ $theme-colors: (
+   "primary":    $primary,
+   "secondary":  $secondary,
+   "success":    $success,
+   "info":       $info,
+   "warning":    $warning,
+   "danger":     $danger,
+   "light":      $light,
+   "dark":       $dark
+ );
 
 // // Set a specific jump point for requesting color jumps
 // $theme-color-interval:      8% !default;
@@ -169,7 +164,7 @@ $dark:          $finch-blue;
 // //
 // // Style anchor elements.
 
-$link-color:                              $cerulean-blue;
+$link-color:                              $info;
 // $link-decoration:                         none !default;
 // $link-hover-color:                        darken($link-color, 15%) !default;
 // $link-hover-decoration:                   underline !default;
@@ -230,7 +225,7 @@ $link-color:                              $cerulean-blue;
 // $line-height-sm:              1.5 !default;
 
 // $border-width:                1px !default;
-$border-color:                $gray-200;
+$border-color:                $grey-200;
 
 // $border-radius:               .25rem !default;
 // $border-radius-lg:            .3rem !default;
@@ -471,7 +466,7 @@ $btn-border-radius-sm:        9999px;
 // $input-disabled-bg:                     $gray-200 !default;
 
 // $input-color:                           $gray-700 !default;
-$input-border-color:                    $gray-300;
+$input-border-color:                    $grey-300;
 // $input-border-width:                    $input-btn-border-width !default;
 // $input-box-shadow:                      inset 0 1px 1px rgba($black, .075) !default;
 
@@ -526,7 +521,7 @@ $input-border-color:                    $gray-300;
 
 // $custom-control-indicator-bg-size:      50% 50% !default;
 // $custom-control-indicator-box-shadow:   $input-box-shadow !default;
-$custom-control-indicator-border-color: $gray-300;
+$custom-control-indicator-border-color: $grey-300;
 // $custom-control-indicator-border-width: $input-border-width !default;
 
 // $custom-control-label-color:            null !default;
@@ -688,7 +683,7 @@ $custom-checkbox-indicator-indeterminate-bg:           $success;
 
 // $nav-link-padding-y:                .5rem !default;
 // $nav-link-padding-x:                1rem !default;
-$nav-link-disabled-color:              $gray-300;
+$nav-link-disabled-color:              $grey-300;
 
 // $nav-tabs-border-color:             $gray-300 !default;
 $nav-tabs-border-width:             $nav-tabs-tab-border-width;
@@ -696,7 +691,7 @@ $nav-tabs-border-width:             $nav-tabs-tab-border-width;
 $nav-tabs-link-hover-border-color:  transparent;
 // $nav-tabs-link-active-color:        $gray-700 !default;
 // $nav-tabs-link-active-bg:           $body-bg !default;
-$nav-tabs-link-active-border-color: transparent transparent $cardinal-red;
+$nav-tabs-link-active-border-color: transparent transparent $primary;
 
 $nav-pills-border-radius:           $btn-border-radius;
 // $nav-pills-link-active-color:       $component-active-color !default;
