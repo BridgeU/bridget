@@ -5,9 +5,9 @@
 // Code influenced by Bootstrap badges:
 // https://github.com/twbs/bootstrap/blob/master/scss/_badge.scss
 
-$chip-background-color: $gray-200;
-$chip-border-color: $gray-200;
-$chip-color: $gray-700;
+$chip-background-color: $grey-200;
+$chip-border-color: $grey-200;
+$chip-color: $grey-700;
 
 .chip {
   @include button-variant($chip-background-color, $chip-border-color);

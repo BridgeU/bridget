@@ -11,11 +11,27 @@
 // application, if possible. For example, a shade of red could be called
 // '$supernova-red' instead of '$negative-action'.
 
-$cardinal-red: #bd0013;
-$parrot-green: #37b083;
-$finch-blue:   #3a4456;
-$cerulean-blue: #0367d8;
+$primary: #cc3d3d;
+$secondary: #0367d8;
+$success: #238661;
+$danger: #cc3d3d;
+$warning: #e0881b;
+$info: #0367d8;
+$light: #f8f9fa;
+$dark: #333333;
 
+$black: #000000;
+$white: #ffffff;
+
+$grey-100: #f8f9fa;
+$grey-200: #e9ecef;
+$grey-300: #dee2e6;
+$grey-400: #ced4da;
+$grey-500: #adb5bd;
+$grey-600: #6c757d;
+$grey-700: #495057;
+$grey-800: #343a40;
+$grey-900: #212529;
 
 // Font size
 $font-size-12: 0.75rem;
