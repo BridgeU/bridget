@@ -30,7 +30,7 @@ Run the following commands on your computer:
 
 1. `git clone git@github.com:BridgeU/bridget.git`
 1. `cd bridget`
-1. `npm install`
+1. `yarn install`
 1. `npm run watch`
 
 Your browser will open on [`http://localhost:9001`][0], where a local server
